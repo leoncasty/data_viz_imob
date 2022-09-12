@@ -6,6 +6,12 @@
 
   Esse projeto tem como objetivo estudar se os imóveis localizados nas prefirerias das principais capitais brasileiras tem seu preço subvalorizado.
   
+# Tableau Links
+
+- https://public.tableau.com/app/profile/leonardo.castilho5433/viz/data_viz_imob_sp/analprecos?publish=yes
+- https://public.tableau.com/app/profile/leonardo.castilho5433/viz/data_viz_imob_sp_m2/analm2?publish=yes
+- https://public.tableau.com/app/profile/leonardo.castilho5433/viz/data_viz_imob_sp_desigualdade/Desiguadadepreco?publish=yes  
+  
 # Tecnologias 
 
   - Python
