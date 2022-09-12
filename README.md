@@ -8,9 +8,7 @@
   
 # Tableau Links
 
-- https://public.tableau.com/app/profile/leonardo.castilho5433/viz/data_viz_imob_sp/analprecos?publish=yes
-- https://public.tableau.com/app/profile/leonardo.castilho5433/viz/data_viz_imob_sp_m2/analm2?publish=yes
-- https://public.tableau.com/app/profile/leonardo.castilho5433/viz/data_viz_imob_sp_desigualdade/Desiguadadepreco?publish=yes  
+- https://public.tableau.com/app/profile/leonardo.castilho5433/viz/data_viz_imob_sp_desigualdade/Story?publish=yes
   
 # Tecnologias 
 
