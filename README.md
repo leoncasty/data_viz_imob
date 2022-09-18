@@ -4,7 +4,7 @@
 
 # Objetivo do Projeto
 
-  Esse projeto tem como objetivo estudar se os imóveis localizados nas prefirerias das principais capitais brasileiras tem seu preço subvalorizado.
+  Esse projeto tem como objetivo estudar os imóveis localizados em grandes brasileiras e verificar se os imoveis em suas periferias tem seu preço subvalorizado.
   
 # Tableau Links
 
@@ -13,6 +13,7 @@
 # Tecnologias 
 
   - Python
+  - Sklearn
   - Selenium
   - BeatifulSoup
   - Pandas
@@ -27,14 +28,26 @@
   - Data Cleaning
   - String Methods
   - Regex
+  - Inferencia Estatistica
+  - Regressão Linear
   - Dataviz com Tableu
   
-# Descrição do Projeto
+# Criação Dataset
 
-  - O dataset cru foi construido realizando WebScreaping da pagina de vendas de Imoveis de São paulo do site Loft: https://loft.com.br na data de 08/09/2022. Possuia 12 Colunas e 4978 linhas, removi apenas as linhas que retornaram nulas após o WS.
-  - Para realizar o WS utilizei uma lista de links da home criada com BeautifulSoup e depois para coletar os elementos em cada link criei uma função de coleta com o Selenium - Xpath.
-  - Dado a criação do Dataset cru, os informações foram incluidas em um Pandas DataFrame e trabalhadas com Regex para limpar a base de quaisquer sujeiras.
-  - O ajuste fino para a base e algumas transformações foram realizadas no Excel antes de subir a base limpa para o Tableu
+  - O dataset cru foi construido da pagina de vendas de Imoveis do site Loft (https://loft.com.br) realizando WebScreaping mesclando o BeautifulSoup e o Selenium para algumas funções que pretendia executar dentro do Url.
+  - Notei que indepente de quantos imóveis o site diga ter disponiveis, apenas consegui coletar aproximadamente 5000 unidades de cada capital, salvo paginas que estavam quebradas ou que por algum mistério não trouxeram informações relevantes. 
+  - O que resultou em um dataset cru final com 19xxx linhas e x colunas.
+  
+# Limpeza Dataset
+
+  - Para iniciar a limpeza importei os arquivos de CSV criados para cada capital e juntei (trocar essa palavra depois) todos eles em um grande DataFrame.
+  - Iniciei as manipulações com Regex. 
+
+# Analise Exploratoria Matplot / Tableau 
+
+# Coisas de estatistica
+
+# Tableau 
 
 # Conclusão
 
