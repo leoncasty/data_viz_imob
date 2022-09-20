@@ -8,6 +8,7 @@
   
 # Tableau Links
 
+(atualizar)
 - https://public.tableau.com/app/profile/leonardo.castilho5433/viz/data_viz_imob_sp_desigualdade/Story?publish=yes
   
 # Tecnologias 
@@ -36,16 +37,19 @@
 
   - O dataset cru foi construido da pagina de vendas de Imoveis do site Loft (https://loft.com.br) realizando WebScreaping mesclando o BeautifulSoup e o Selenium para algumas funções que pretendia executar dentro do Url.
   - Notei que indepente de quantos imóveis o site diga ter disponiveis, apenas consegui coletar aproximadamente 5000 unidades de cada capital, salvo paginas que estavam quebradas ou que por algum mistério não trouxeram informações relevantes. 
-  - O que resultou em um dataset cru final com 19xxx linhas e x colunas.
+  - O que resultou em um dataset cru final com 19982 linhas e 10 colunas.
   
 # Limpeza Dataset
 
+(atualizar)
   - Para iniciar a limpeza importei os arquivos de CSV criados para cada capital e juntei (trocar essa palavra depois) todos eles em um grande DataFrame.
   - Iniciei as manipulações com Regex. 
 
 # Analise Exploratoria Matplot / Tableau 
 
-# Coisas de estatistica
+# Analise estatistica
+
+ (incluir metodologia de analise do modelo)
 
 # Tableau 
 
