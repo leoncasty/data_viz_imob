@@ -8,8 +8,8 @@
   
 # Tableau Links
 
-(atualizar)
-- https://public.tableau.com/app/profile/leonardo.castilho5433/viz/data_viz_imob_sp_desigualdade/Story?publish=yes
+- https://public.tableau.com/app/profile/leonardo.castilho5433/viz/data_viz_imob_atual/analiseexploratoria?publish=yes
+(incluir analise na apresentação)
   
 # Tecnologias 
 
@@ -30,7 +30,7 @@
   - String Methods
   - Regex
   - Inferencia Estatistica
-  - Regressão Linear
+  - Regressão Multipla
   - Dataviz com Tableu
   
 # Criação Dataset
@@ -41,27 +41,29 @@
   
 # Limpeza Dataset
 
-(atualizar)
-  - Para iniciar a limpeza importei os arquivos de CSV criados para cada capital e juntei (trocar essa palavra depois) todos eles em um grande DataFrame.
-  - Iniciei as manipulações com Regex. 
+  - Para iniciar a limpeza importei os arquivos de CSV criados para cada capital e concatenei todos eles em um único DataFrame.
+  - Iniciei as manipulações com Regex para limpar as colunas e criar algumas novas como o Bairro e Metro quadrado.
+  - Os ajustes finos de que não foram possiveis de ser feitos com regex ou realocação de algums informações eu realizei no Excel e Tableau.
 
-# Analise Exploratoria Matplot / Tableau 
+# Analise Exploratoria Matplot / Tableau
+
+  - Preciso incluir a análise na apresentação com as comparações entre as diferenças de imóveis mais baratos e mais caros de cada cidade e linkar isso
+  com a renda familiar média de cada cidade
+  - Entender quantos meses de trabalho de uma familia média seriam necessários para comprar os imóveis mais caros de cada cidade
+  - Entender problemas de infraestrutura dos Bairros mais baratos. 
 
 # Analise estatistica
 
- (incluir metodologia de analise do modelo)
-
-# Tableau 
+ - Pretendo realizar uma regressão multipla para verificar o impacto de cada variavel no preço final do Imóvel
 
 # Conclusão
 
-O projeto ainda não possui conclusão dada a Fase exploratoria dos dados.
+O projeto ainda não possui conclusão dada a Fase exploratoria dos dados e pesquisas ainda sendo realizadas.
 
 # Proximos Passos
 
-Para continuar a analise um dataset maior será criado incluindo as cidades de Rio de Janeiro, Porto Alegre e Minas Gerais. 
-Após está inclusão e nova limpeza, um banco de dados será criado para armazenar as informaçõese facilitar seu acesso para futuras consultas. 
-Um modelo de Regressões será criado para entender a precificação dos imoveis e classifica-los em subvalorizados ou não dado ao que seria seu preço "real".
+Criar modelo de Regressões para entender a precificação dos imoveis e classifica-los em subvalorizados ou não dado ao que seria seu preço "esperado".
+Aprofundar pesquisas sobre habitação e relacionar com a renda das familais.
 Novo Dashboard contendo todas as analises será apresentado. 
 
 
