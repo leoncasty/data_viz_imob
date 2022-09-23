@@ -9,7 +9,6 @@
 # Tableau Links
 
 - https://public.tableau.com/app/profile/leonardo.castilho5433/viz/data_viz_imob_atual/analiseexploratoria?publish=yes
-(incluir analise na apresentação)
   
 # Tecnologias 
 
