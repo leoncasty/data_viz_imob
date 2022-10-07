@@ -1,4 +1,4 @@
-# Mercado Imobiliario Capitais
+# Desigualdade de Propriedade Imobiliaria nas Capitais
 
   Status do Projeto (Em progresso)
 
@@ -13,7 +13,6 @@
 # Tecnologias 
 
   - Python
-  - Sklearn
   - Selenium
   - BeatifulSoup
   - Pandas
@@ -28,8 +27,6 @@
   - Data Cleaning
   - String Methods
   - Regex
-  - Inferencia Estatistica
-  - Regressão Multipla
   - Dataviz com Tableu
   
 # Criação Dataset
@@ -44,26 +41,21 @@
   - Iniciei as manipulações com Regex para limpar as colunas e criar algumas novas como o Bairro e Metro quadrado.
   - Os ajustes finos de que não foram possiveis de ser feitos com regex ou realocação de algums informações eu realizei no Excel e Tableau.
 
-# Analise Exploratoria Matplot / Tableau
+# Analise Exploratoria Tableau
 
-  - Preciso incluir a análise na apresentação com as comparações entre as diferenças de imóveis mais baratos e mais caros de cada cidade e linkar isso
-  com a renda familiar média de cada cidade
-  - Entender quantos meses de trabalho de uma familia média seriam necessários para comprar os imóveis mais caros de cada cidade
-  - Entender problemas de infraestrutura dos Bairros mais baratos. 
-
-# Analise estatistica
-
- - Pretendo realizar uma regressão multipla para verificar o impacto de cada variavel no preço final do Imóvel
+  - Para entender como os preços se comportavam, a principio criei um histograma dentro do Tableau e identifiquei que os preços possuem uma distribuição gama. O que me levou a pesquisar mais sobre e descobrir que se trata de algum comum para informações financeiras.
+  - Também identifiquei a grande disparidade de valor entre os imóveis mais baratos comparados aos mais caros, o que direcionou todo o meu trabalho então. 
 
 # Conclusão
 
-O projeto ainda não possui conclusão dada a Fase exploratoria dos dados e pesquisas ainda sendo realizadas.
+O projeto tinha como proposta inicial estudar a subvalorização dos imóveis das periferias, porém ao longo que fui maturando meu dataset vi que não seria possivel por enquanto realizar este calculo. O que me fez direcionar minha atenção a grande desigualdade de renda exposta por meio da propriedade imobiliaria. 
+Trago como uma reflexão ao final deste trabalho a necessidade de politicas publicas para amenizar os problemas habitacionais brasileiros. 
 
 # Proximos Passos
 
-Criar modelo de Regressões para entender a precificação dos imoveis e classifica-los em subvalorizados ou não dado ao que seria seu preço "esperado".
-Aprofundar pesquisas sobre habitação e relacionar com a renda das familais.
-Novo Dashboard contendo todas as analises será apresentado. 
+Se houvesse mais tempo para a realização deste projeto eu gostaria de criar um modelo de Regressões para entender a precificação dos imoveis e classifica-los em subvalorizados ou não dado ao que seria seu preço "esperado", segregando por regiões em cada cidade que o modelo rodaria.
+Aprofundar as pesquisas sobre habitação e renda das familais.
+
 
 
   
