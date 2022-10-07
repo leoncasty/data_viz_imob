@@ -1,6 +1,6 @@
 # Desigualdade de Propriedade Imobiliaria nas Capitais
 
-  Status do Projeto (Em progresso)
+  Status do Projeto (Concluido)
 
 # Objetivo do Projeto
 
